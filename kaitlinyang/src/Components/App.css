@@ -1,0 +1,295 @@
+/* Navigation Bar */
+@media (min-width: 451px) {
+  .topnav, .mobileDesign, .mobileIllustration, #navLogo, img.mobilelogo {
+    display: none; }
+  .navigation {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: white; }
+  img.weblogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px; }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px; }
+  .navItems a {
+    text-align: left;
+    font-variant: small-caps;
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+    text-decoration: none;
+    padding-left: 68px;
+    padding-bottom: 6px; }
+  #navIcons {
+    margin-left: 68px; }
+  i {
+    padding-right: 5px; }
+  #navContact {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 11px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    padding-left: 68px; }
+  #navContact a {
+    color: black;
+    padding-bottom: 50px; }
+  li a:hover, #navContact a:hover {
+    color: #5ea1a9;
+    text-decoration: none; }
+  #navIcons i {
+    color: black; }
+  #navIcons i:hover {
+    color: #5ea1a9; }
+  /*Illustration Home*/
+  .content{
+
+  }
+  .illustration-grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, minmax(250px, max-content));
+    grid-gap: 10px;
+    margin-left: 250px; }
+  .illustrationOverlay a {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 18%; }
+  .illustrationOverlay a:hover {
+    color: white;
+    text-decoration: none; }
+  #emperorOverlay a {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 2.3vw; }
+  #rapBattleOverlay h3 {
+    padding-left: 14%;
+    padding-top: 8%;
+    font-size: 1vw; }
+  #rapBattleOverlay a {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 35%;
+    font-size: 2.3vw; }
+  #bearOverlay a {
+    padding-top: 20%;
+    font-size: 2.3vw; }
+  #mushroomsOverlay a {
+    padding-top: 50%; }
+  .gridImage, .illustrationOverlay {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer; }
+  .illustrationOverlay {
+    opacity: 0;
+    z-index: 1;
+    color: white; }
+  .illustrationOverlay:hover {
+    opacity: 1;
+    transition-duration: 500ms; }
+  .illustrationOverlay h3 {
+    padding-left: 7%;
+    padding-top: 4%;
+    font-size: 1.2vw;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700; }
+  #secretSanta, #secretSantaOverlay {
+    grid-column: 1/8;
+    grid-row: 1/2; }
+  #secretSantaOverlay {
+    background-color: #eec3b3; }
+  #rapBattle, #rapBattleOverlay {
+    grid-column: 11/-4;
+    grid-row: 1/2; }
+  #rapBattleOverlay {
+    background-color: #25323c; }
+  #emperor, #emperorOverlay {
+    grid-column: 1/6;
+    grid-row: 2/3; }
+  #emperorOverlay {
+    background-color: #9cced4; }
+  #redriding, #redridingOverlay {
+    grid-column: 11/-6;
+    grid-row: 2/3; }
+  #redridingOverlay {
+    background-color: #be442c; }
+  #bear, #bearOverlay {
+    grid-column: 1/7;
+    grid-row: 5/6; }
+  #bearOverlay {
+    background-color: #97c4af; }
+  #buddha, #buddhaOverlay {
+    grid-column: 1/6;
+    grid-row: 3/4; }
+  #buddhaOverlay {
+    background-color: #f0aeaf; }
+  #sick, #sickOverlay {
+    grid-column: 1/6;
+    grid-row: 4/5; }
+  #sickOverlay {
+    background-color: #aaa9a9; }
+  #mushrooms, #mushroomsOverlay {
+    grid-column: 11/-6;
+    grid-row: 3/5; }
+  #mushroomsOverlay {
+    background-color: #a3c1cb; }
+  #veggie, #veggieOverlay {
+    grid-column: 11/-5;
+    grid-row: 5/6; }
+  #veggieOverlay {
+    background-color: #e9c36a; }
+  #veggieOverlay h3 {
+    margin-bottom: 15%; }
+  /* About Home */
+  .aboutDescription {
+    margin-left: 250px;
+    padding-right: 10%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px; }
+  .column {
+    float: left;
+    width: 50%; }
+  #aboutImage {
+    display: block;
+    width: 70%;
+    margin-left: 25%;
+    margin-right: 5%; }
+  #resumeDownload {
+    display: block;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 1%;
+    text-decoration: none;
+    color: grey;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 18px; }
+  #resumeDownload:hover {
+    color: #5ea1a9; }
+  #aboutDescription a {
+    text-decoration: none;
+    color: grey; }
+  #aboutDescription a:hover {
+    color: #5ea1a9;
+    text-decoration: none; }
+  .aboutTitle {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    font-weight: 600;
+    letter-spacing: 1px; }
+  /* Design Home */
+  .design-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, max-content));
+    grid-template-rows: repeat(1, max-content);
+    grid-gap: 10px;
+    margin-left: 250px; }
+  .designProject figure {
+    position: relative; }
+  .designProject figure img {
+    max-width: 100%;
+    display: block;
+    position: relative; }
+  .designProject figcaption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 2vw;
+    font-family: "Source Sans Pro", sans-serif; }
+  .designProject a {
+    text-decoration: none;
+    color: grey;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 33%;
+    opacity: 0; }
+  .designProject a:hover {
+    text-decoration: none;
+    color: grey;
+    opacity: 1;
+    transition-duration: 500ms; }
+  #bobaImage {
+    object-fit: contain; }
+  .gridOverlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%; }
+  /* Styling for individual project pages*/
+  .page {
+    margin-left: 250px; }
+  .contentPage {
+    height: 100%;
+    margin: auto;
+    text-align: center; }
+  .contentPage {
+    max-width: 900px; }
+  .contentPage h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    padding-bottom: 5%; }
+  #rapBattlePage {
+    max-width: 500px; }
+  #rapLink {
+    color: #5ea1a9;
+    text-decoration: none; }
+  #portraitPage {
+    max-width: 700px; }
+  #hiddenPage {
+    max-width: 500px; }
+  .contentImage {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px; }
+  #issuu {
+    margin-bottom: 50px; }
+  .contentText {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    padding-bottom: 3%; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px; }
+  .bballcolumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px; }
+  .chocolateText {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    text-align: center; } }
